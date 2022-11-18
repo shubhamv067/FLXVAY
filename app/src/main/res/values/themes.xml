@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FLXVAY" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_default_color</item>
+        <item name="colorPrimaryDark">@color/blue_default_color</item>
+        <item name="colorAccent">@color/blue_default_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="edittext_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#A6A6A6</item>
+        <item name="colorPrimaryDark">#A6A6A6</item>
+        <item name="colorAccent">#A6A6A6</item>
+
+
+    </style>
+
+    <style name="BlueProgressbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_default_color</item>
+        <item name="colorPrimaryDark">@color/blue_default_color</item>
+        <item name="colorAccent">@color/blue_default_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.FLXVAY.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="list_item_appearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="backgraund_white" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyActionBarMenuTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+
+    ////tabLayout
+<!--    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">-->
+<!--        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>-->
+<!--    </style>-->
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    ////tabLayout
+
+
+    <style name="Theme.FLXWAY.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FLXWAY.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="ThemeToolbar"></style>
+
+</resources>

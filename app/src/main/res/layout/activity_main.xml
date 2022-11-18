@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout
+    android:id="@+id/drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <nl.psdcompany.duonavigationdrawer.views.DuoMenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/backgraund_white"
+        android:tag="menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Home"
+                android:elevation="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:text="Home"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:text="Profile"
+                android:fontFamily="@font/b612"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/My_Cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:text="My Cart"
+                android:fontFamily="@font/b612"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/b612"
+                android:text="Favorite"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/My_Orders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/b612"
+                android:text="My Orders"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/Language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/b612"
+                android:text="Language"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/b612"
+                android:text="Settings"
+                android:textColor="@color/black_browen"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </nl.psdcompany.duonavigationdrawer.views.DuoMenuView>
+
+    <androidx.cardview.widget.CardView
+        android:tag="content"
+        android:elevation="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:background="@color/white"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frame"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout>

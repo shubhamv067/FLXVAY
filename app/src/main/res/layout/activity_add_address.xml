@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAddressActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Add_address_Toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="@+id/Add_address_Back_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Add_address_Back_arrow"
+        app:layout_constraintTop_toTopOf="@+id/Add_address_Back_arrow" />
+
+    <ImageView
+        android:id="@+id/Add_address_Back_arrow"
+        android:layout_width="25dp"
+        android:layout_height="30.5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leftarrow"
+        app:tint="#787272" />
+
+    <TextView
+        android:id="@+id/Create_addresss_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/b612"
+        android:text="Create Address"
+        android:textColor="#323232"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Add_address_Toolbar" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Create_addresss_title">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Name"
+            android:textColor="#A6A6A6" />
+
+        <EditText
+            android:id="@+id/Name_Add_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="john deo"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:theme="@style/edittext_theme" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Address lane"
+            android:textColor="#A6A6A6" />
+
+        <EditText
+            android:id="@+id/Manage_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Shewrapara 958"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:theme="@style/edittext_theme" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="City"
+            android:textColor="#A6A6A6" />
+
+        <EditText
+            android:id="@+id/City_Add_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mandsaur"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:theme="@style/edittext_theme" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Postal Code"
+            android:textColor="#A6A6A6" />
+
+        <EditText
+            android:id="@+id/Postal_Code_Add_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="458551"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:theme="@style/edittext_theme" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Phone Number"
+            android:textColor="#A6A6A6" />
+
+        <EditText
+            android:id="@+id/Phone_Number_Add_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="+884552242345"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:theme="@style/edittext_theme" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/AddAddress_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/loginsignupbg"
+        android:elevation="3dp"
+        android:padding="12dp"
+        android:text="Add Address"
+        android:textAllCaps="false"
+        android:textColor="#50FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

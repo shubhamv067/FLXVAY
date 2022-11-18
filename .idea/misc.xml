@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.167" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/border_gradient.xml" value="0.1255" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/corner_transparent_bg.xml" value="0.1255" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.167" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/loginsignupbg.xml" value="0.1255" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/ractengale_conder_bg.xml" value="0.1255" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/search_bg.xml" value="0.106" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/side_nav_bar.xml" value="0.1255" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/drawable/skip_btn.xml" value="0.1255" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/font/averia_libre_bold.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_add_address.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_address.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_category.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_category_seeall.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_checkout.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_order_detail.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_product_detail.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_register.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_see_all.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_signup.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/activity_splash_screen.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/banner_slider_item.xml" value="0.5" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/banner_slider_layout.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/cart_item_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/category_item_layout.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/category_one_item_layout.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_favorite.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_home.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_my_cart.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_my_order.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_select_color.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_select_size.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/fragment_settings.xml" value="0.5" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/horizontalscrollproductitem.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/horizontalscrollproductlayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/my_order_item_layout.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/order_detail_address_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/order_detail_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/order_detail_total_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/product_detail_discription.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/product_detail_item_color_size.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/product_detail_item_imageview.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/product_detail_item_imageview_layout.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/product_image_layout.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/search_bg.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/selected_color_item_layout.xml" value="0.7333333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/selected_size_container_layout.xml" value="0.38451776649746194" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/layout/selectedsizeitemcontainer.xml" value="0.1578125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/menu/main.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/menu/notification_menu.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/menu/product_detail_icon_menu.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/FLXVAY/app/src/main/res/menu/search_icon_item.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.13333333333333333" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

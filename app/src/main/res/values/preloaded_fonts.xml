@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/averia_libre_bold</item>
+        <item>@font/b612</item>
+        <item>@font/b612_bold</item>
+        <item>@font/b612_mono_bold</item>
+        <item>@font/b612_mono_bold_italic</item>
+    </array>
+</resources>

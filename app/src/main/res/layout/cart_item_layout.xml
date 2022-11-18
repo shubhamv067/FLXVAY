@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@color/white"
+    android:elevation="3dp"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/Order_ImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/itemphoto1" />
+
+    <TextView
+        android:id="@+id/Order_Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Woman t- shirt"
+        android:textColor="@color/black_medium"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/Cart_Remove_Button"
+        app:layout_constraintStart_toEndOf="@+id/Order_ImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Order_Shop_Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="32dp"
+        android:text="Lotto.LTD"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Order_Title"
+        app:layout_constraintTop_toBottomOf="@+id/Order_Title" />
+
+    <TextView
+        android:id="@+id/Order_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="$35"
+        android:textColor="#374ABE"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/Order_Shop_Name"
+        app:layout_constraintTop_toBottomOf="@+id/Order_Shop_Name" />
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/search_bg"
+        android:backgroundTint="#F6F3F3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Order_Price"
+        app:layout_constraintTop_toBottomOf="@+id/Order_Price">
+
+        <TextView
+            android:id="@+id/order_detail_Decrement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#565656"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Cart_No_Of_Product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#565656"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Cart_Increment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#565656"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Cart_Remove_Button"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#919191"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close" />
+</androidx.constraintlayout.widget.ConstraintLayout>
